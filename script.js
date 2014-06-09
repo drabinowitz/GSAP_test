@@ -1,0 +1,8 @@
+$(document).ready(function(){
+			$("#tester").click(function () {
+				$(this).hide();
+			});
+			var tester = $("#tester");
+			tester.text("newer text");
+			TweenLite.to(tester,10,{left:"632px"});
+		})
