@@ -4,5 +4,5 @@ $(document).ready(function(){
 			});
 			var tester = $("#tester");
 			tester.text("newer text");
-			TweenLite.to(tester,10,{left:"632px"});
+			TweenLite.to(tester,3,{left:"632px",ease:Quart.easeInOut});
 		})
